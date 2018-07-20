@@ -1,0 +1,13 @@
+.window{
+  height:214px;
+  width:350px;
+  overflow: hidden;
+}
+.images{
+  display: flex;
+  align-items: flex-start;
+  transition: transform 0.5s;
+}
+.cyan{
+  color:cyan;
+}
