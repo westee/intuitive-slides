@@ -13,8 +13,7 @@ for (let i = 0; i < allButtons.length; i++) {
 }
 
 let counter = 1;
-var timeId = setTimer;
-console.log(timeId)
+var timeId = setTimer();
 // console.log($('.window'))
 $('.window').on('mouseenter', function () {
   clearInterval(timeId);
